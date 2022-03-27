@@ -136,7 +136,7 @@ srchBtn.addEventListener('click', function () {
 		}
 
 		sendData(srchData);
-		window.alert(JSON.stringify(srchData));
+		// window.alert(JSON.stringify(srchData));
 	}
 }, false)
 
