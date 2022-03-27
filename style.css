@@ -1,0 +1,320 @@
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  position: fixed;
+  width:100%;
+  height:100px;
+  background-color: #174a5c;
+  color: white;
+  margin: 0px 0px 0px 0px;
+  padding-top: 10px;
+  z-index: 10;
+}
+
+body{
+  background-color: #ace5ff;
+  position: absolute;
+  z-index: -3;
+}
+
+footer{
+  position: fixed;
+  bottom: 0px;
+  width:100%;
+  height:70px;
+  background-color: #174a5c;
+  color: white;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  z-index: 10;
+}
+
+#logo{
+  width:294px;
+  height: 324px;
+  z-index: -2;
+  opacity: 0.5;
+  position:absolute;
+  top: 0;
+  left: 0;
+}
+
+#heading{
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px;
+  margin:0px;
+}
+
+#schedule{
+  width:50%;
+  height: 40px;
+  text-align: right;
+  font-size: small;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+#place{
+  width:50%;
+  height:20px;
+  text-align: left;
+  font-size: small;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+#branch{
+  width:50%;
+  height: 15px;
+  text-align:end;
+  font-size: x-small;
+  padding-right: 10px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+p{
+  margin-bottom:6px;
+}
+
+.body{
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.eyeCatch{
+  width:90%;
+  height:auto;
+  margin:5%;
+}
+
+.carousel-indicators{
+  position:absolute;
+  z-index: 1;
+}
+
+.carousel-control-prev{
+  position:absolute;
+  z-index: 1;
+}
+
+.carousel-control-next{
+  position:absolute;
+  z-index: 1;
+}
+
+.main{
+  width: 85%;
+  height: auto;
+  padding: 10px;
+  margin-left: 15%;
+  /* background-color: #b3d87455; */
+}
+
+.sub{
+  width:100%;
+  height: auto;
+  padding: 10px;
+  margin-left: 0;
+  /* background-color: #d874b355; */
+  /* height:1600px; */
+}
+
+.scrollBox{
+  height: 75px;
+  font-size: 12px;
+  overflow-y: scroll;
+  border-top: dashed #174a5c;
+  border-bottom: dashed #174a5c;
+  padding: 2px;
+  margin: 4px;
+}
+
+#resultAccordion{
+  margin-top: 8px;
+  margin-left: 4px;
+  margin-bottom: 16px;
+  position:relative;
+  z-index: 0;
+}
+
+.isbn{
+  font-size: small;
+  padding-right: 8px;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.accoContent{
+  border-left: thick solid #ff284030;
+  margin-top: 2px;
+  padding-left: 4px;
+}
+
+#rsvComplete{
+  background-color: #ffffff55;
+  border:solid #ff284030;
+  padding: 4px;
+}
+
+#flowBox{
+  height:20px;
+  margin:0px;
+}
+
+.flowInfo{
+  white-space: nowrap;
+  height: 20px;
+}
+
+#linkBox{
+  height: 50px;
+  margin:0px;
+}
+
+.footerLink{
+  float: left;
+  width: 33%;
+  height:50px;
+  margin:0px;
+}
+
+
+
+
+/* ボタン全体 */
+.flowbtn8{
+  border-radius:50%;
+  position:relative;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  font-size:30px;
+  text-decoration:none;
+  transition:.5s;
+  margin: auto;
+  position: absolute;
+  top:  0;
+  bottom:  0;
+  left:  0;
+  right:  0;
+}
+
+/* ボタンマウスホバー時のテキスト指定 */
+.flowbtn8:hover{
+  color:#fff!important;
+}
+/* アイコンをど真ん中に */
+.flowbtn8 i{
+  position:absolute;
+  top:50%;
+  left:50%;
+  -ms-transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
+/* Twitter */
+.flowbtn8.fl_tw2{
+  border:solid 1px #55acee;
+  color:#55acee;
+}
+/* Twitterマウスホバー時 */
+.flowbtn8.fl_tw2:hover{
+  border:solid 1px #55acee;
+  background:#55acee;
+}
+/* Instagram */
+.flowbtn8.insta_btn2 {
+  border:solid 1px #c6529a;
+  color:#c6529a;
+  font-size:35px;
+}
+/* Instagramマウスホバー時 */
+.flowbtn8.insta_btn2:hover{
+  border:solid 1px #c6529a;
+  background:#c6529a;
+}
+/* LINE */
+.flowbtn8.fl_li2{
+  border:solid 1px #00c300;
+  color:#00c300;
+  font-size:35px;
+}
+/* LINEマウスホバー時 */
+.flowbtn8.fl_li2:hover{
+  border:solid 1px #00c300;
+  background:#00c300;
+}
+/* お問い合わせ */
+.flowbtn8.fl_ma2{
+  border:solid 1px #f3981d;
+  color:#f3981d;	
+  font-size:28px;
+}
+/* お問い合わせマウスホバー時 */
+.flowbtn8.fl_ma2:hover{
+  border:solid 1px #f3981d;
+  background:#f3981d;
+}
+/* ulタグの内側余白を０にする */
+ul.snsbtniti{
+  padding:0!important;
+}
+/* ボタン全体の位置 */
+.snsbtniti{
+  /* display:flex; */
+  /* flex-flow:row wrap; */
+  justify-content:space-around;
+  float: left;
+  width:20%;
+  height: 100%;
+}
+/* ボタン同士の余白 */
+.snsbtniti li{
+  text-align:center!important;
+  list-style-type:none!important;
+  height: 80px;
+  position: relative;
+}
+
+.snsText{
+  justify-content:space-around;
+  float: left;
+  width: 80%;
+  height: 100%;
+}
+
+ul.snsText{
+  padding:0!important;
+}
+
+.snsText li{
+  /* text-align:center!important; */
+  list-style-type:none!important;
+  height: 80px;
+  position: relative;
+}
+
+#snsBox{
+  padding-top: 8px;
+  overflow: hidden;
+}
+
+.snsHeading{
+  margin:auto;
+}
+
+.snsContent{
+  font-size: small;
+  margin: auto;
+  padding-left: 10px;
+}
