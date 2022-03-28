@@ -87,7 +87,7 @@ function setup() {
 
 function draw() {
   clear();
-  console.log(frameRate());
+  // console.log(frameRate());
   scrollY = -document.body.getBoundingClientRect().y//document.documentElement.scrollTop;
   mainTop = document.getElementsByClassName("main")[0].getBoundingClientRect().top;
   srchTop = document.getElementById("srchField").offsetTop;
